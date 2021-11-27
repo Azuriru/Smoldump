@@ -1,1 +1,1 @@
-Baby version of [Fulldump](github.com/Dorumin/Fulldump) that supports all format outputs
+Baby version of [Fulldump](https://github.com/Dorumin/Fulldump) that supports all format outputs
