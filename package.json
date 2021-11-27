@@ -1,0 +1,20 @@
+{
+	"name": "smoldump",
+	"version": "0.0.1",
+	"description": "Baby version of fulldump that supports all format outputs",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"discord",
+		"smol",
+		"dump"
+	],
+	"author": "Robyn",
+	"license": "ISC",
+	"dependencies": {
+		"got": "^11.8.3",
+		"yargs": "^17.2.1"
+	}
+}
