@@ -100,7 +100,7 @@ class Smoldump {
                 content,
                 timestamp
             }
-        }).reverse(), null, 4);
+        }).reverse() + '\n', null, 4);
     }
 
     writeTextMessages(messages) {
@@ -136,7 +136,7 @@ class Smoldump {
             const content = group.map(message => message.content).join('\n');
 
             return `${username} - ${date} at ${timestring}\n${content}`;
-        }).join('\n\n');
+        }).join('\n\n') + '\n';
     }
 
     writeLogMessages(messages) {
@@ -146,7 +146,7 @@ class Smoldump {
             return `[${new Date(timestamp).toLocaleString()}] ${username}: ${content}`;
         })
             .reverse()
-            .join('\n');
+            .join('\n') + '\n';
     }
 
     write(messages) {
