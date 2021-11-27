@@ -167,7 +167,7 @@ class Smoldump {
             case 'text':
                 return 'ranges.txt';
             case 'log':
-                return 'ranges.txt';
+                return 'ranges.log';
         }
     }
 
